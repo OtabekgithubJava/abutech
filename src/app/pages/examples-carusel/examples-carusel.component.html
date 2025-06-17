@@ -1,0 +1,40 @@
+<div class="carousel-section">
+  <h1 class="section-title">Bizning Darslardan Lavhalar</h1>
+  <div class="carousel-wrapper">
+    <button class="nav-btn prev-btn" (click)="prevImage()" aria-label="Previous image">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    
+    <div class="carousel-container">
+      <div class="carousel-track" [style.transform]="'translateX(-' + (activeIndex * 100) + '%)'">
+        <div *ngFor="let image of images; let i = index" class="carousel-slide">
+          <img [src]="image.src" [alt]="image.alt" class="slide-image" 
+               [class.active]="i === activeIndex"
+               (click)="openLightbox(i)">
+          <div class="slide-caption" *ngIf="image.caption">{{image.caption}}</div>
+        </div>
+      </div>
+      
+      <div class="carousel-indicators">
+        <button *ngFor="let image of images; let i = index" 
+                [class.active]="i === activeIndex"
+                (click)="goToImage(i)"
+                ></button>
+      </div>
+    </div>
+    
+    <button class="nav-btn next-btn" (click)="nextImage()" aria-label="Next image">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+  
+  <div class="lightbox" *ngIf="lightboxOpen" (click)="closeLightbox()">
+    <div class="lightbox-content" (click)="$event.stopPropagation()">
+      <button class="close-btn" (click)="closeLightbox()">&times;</button>
+      <img [src]="images[lightboxIndex].src" [alt]="images[lightboxIndex].alt">
+      <div class="lightbox-caption" *ngIf="images[lightboxIndex].caption">
+        {{images[lightboxIndex].caption}}
+      </div>
+    </div>
+  </div>
+</div>

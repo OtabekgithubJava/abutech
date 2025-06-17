@@ -1,0 +1,32 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+<section class="about-section">
+  <div class="container">
+    <h2 class="section-title" [class.show]="showTitle">"Abu-tech" bu —</h2>
+    <div class="cards">
+      <div class="card" [class.show]="showCards[0]">
+        <div class="card-icon">
+          <i class="fas fa-school"></i>
+        </div>
+        <h3 class="card-title">Professional Ta'lim</h3>
+        <p class="card-text">Dasturlash, ingliz tili va IELTS kabi zamonaviy kasblar o'rgatiladigan yetakchi markaz.</p>
+      </div>
+      
+      <div class="card" [class.show]="showCards[1]">
+        <div class="card-icon">
+          <i class="fas fa-chalkboard-teacher"></i>
+        </div>
+        <h3 class="card-title">Hayotni Yangilash</h3>
+        <p class="card-text">Zamonaviy kasblar yordamida insonlar hayotini yaxshilovchi va kelajakka ishonchni mustahkamlovchi maskan.</p>
+      </div>
+      
+      <div class="card" [class.show]="showCards[2]">
+        <div class="card-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3 class="card-title">Katta Hamjamiyat</h3>
+        <p class="card-text">100lab o'quvchilar va katta jamoani bir dasta qilgan ta'lim va innovatsiya markazi.</p>
+      </div>
+    </div>
+  </div>
+</section>

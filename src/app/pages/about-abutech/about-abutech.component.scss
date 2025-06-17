@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@600;700&display=swap');
+
+:root {
+  --primary: #2A7F62;
+  --primary-light: #3CB087;
+  --dark: #1E2A3A;
+  --gray: #6B7280;
+}
+
+.about-section {
+  background: linear-gradient(135deg, #F8F9FA 0%, #E9F5FF 100%);
+  padding: 2rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+
+  &.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  flex: 1;
+  min-width: 200px;
+  max-width: 320px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+
+  &.show {
+    opacity: 1;
+    transform: translateY(0);
+
+    .card-icon {
+      transform: scale(1);
+    }
+  }
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(42, 127, 98, 0.1);
+  border-radius: 50%;
+  color: var(--primary);
+  font-size: 1.4rem;
+  transform: scale(0.8);
+  transition: all 0.4s ease 0.2s;
+}
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  color: var(--gray);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .about-section {
+    padding: 2.5rem 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cards {
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+  }
+  
+  .card {
+    padding: 1.5rem;
+  }
+  
+  .card-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  
+  .cards {
+    gap: 2rem;
+  }
+  
+  .card {
+    max-width: 380px;
+  }
+}

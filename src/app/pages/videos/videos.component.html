@@ -1,0 +1,62 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+<app-header></app-header>
+
+<div class="videos-gallery" [ngClass]="{'light-theme': isLightTheme}">
+  <div class="gallery-controls">
+    <div class="search-container">
+      <i class="fas fa-search search-icon"></i>
+      <input
+        type="text"
+        placeholder="Qidiruv..."
+        (input)="searchVideos($event)"
+        class="search-input"
+        aria-label="Search videos"
+      >
+    </div>
+
+    <div class="filter-tabs">
+      <button 
+        *ngFor="let category of categories" 
+        (click)="filterVideos(category)"
+        [class.active]="activeCategory === category"
+        class="filter-tab"
+      >
+        {{ category }}
+      </button>
+    </div>
+  </div>
+
+  <div class="video-grid-container">
+    <div *ngIf="filteredVideos.length === 0" class="no-results">
+      <i class="fas fa-video-slash"></i>
+      <p>Hech qanday video topilmadi</p>
+    </div>
+
+    <div *ngFor="let video of filteredVideos" class="video-card">
+      <div class="video-wrapper">
+        <iframe
+          [src]="getSafeUrl(video.id)"
+          frameborder="0"
+          allowfullscreen
+          loading="lazy"
+          [title]="video.title"
+        ></iframe>
+      </div>
+      <div class="video-info">
+        <h3 class="video-title">{{ video.title }}</h3>
+        <div class="video-meta">
+          <span class="video-category">{{ getCategoryName(video.type) }}</span>
+          <a 
+            href="https://www.youtube.com/watch?v={{video.id}}" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="watch-link"
+          >
+            <i class="fab fa-youtube"></i> YouTube'da ko'rish
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<section class="compact-welcome">
+  <div class="compact-container">
+    <div class="compact-image">
+      <img src="images/dubai.webp" alt="Abu Tech students" loading="lazy">
+    </div>
+    
+    <div class="compact-form-container">
+      <div class="compact-form">
+        <h3 class="form-caption">Bepul konsultatsiya</h3>
+        <p class="form-instruction">Telefon raqamingizni yozib qoldiring, biz sizga qo'ng'iroq qilamiz</p>
+        
+        <form (submit)="onSubmit($event)" class="consult-form">
+          <div class="input-group">
+            <input type="text" placeholder="Ismingiz" required>
+            <input type="tel" placeholder="+998" required>
+          </div>
+          
+          <div class="consent-check">
+            <input type="checkbox" id="consent" required>
+            <label for="consent">Shaxsiy ma'lumotlarni qayta ishlashga roziman</label>
+          </div>
+          
+          <button type="submit" class="submit-btn">
+            So'rov yuborish
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
