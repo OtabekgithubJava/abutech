@@ -9,18 +9,33 @@
         <h3 class="form-caption">Bepul konsultatsiya</h3>
         <p class="form-instruction">Telefon raqamingizni yozib qoldiring, biz sizga qo'ng'iroq qilamiz</p>
         
-        <form (submit)="onSubmit($event)" class="consult-form">
+        <form [formGroup]="consultForm" (ngSubmit)="onSubmit()" class="consult-form">
           <div class="input-group">
-            <input type="text" placeholder="Ismingiz" required>
-            <input type="tel" placeholder="+998" required>
+            <input 
+              type="text" 
+              formControlName="name" 
+              placeholder="Ismingiz" 
+              [class.invalid]="consultForm.get('name')?.invalid && consultForm.get('name')?.touched"
+            >
+            <input 
+              type="tel" 
+              formControlName="phone" 
+              placeholder="+998" 
+              [class.invalid]="consultForm.get('phone')?.invalid && consultForm.get('phone')?.touched"
+            >
           </div>
           
           <div class="consent-check">
-            <input type="checkbox" id="consent" required>
+            <input 
+              type="checkbox" 
+              id="consent" 
+              formControlName="consent"
+              [class.invalid]="consultForm.get('consent')?.invalid && consultForm.get('consent')?.touched"
+            >
             <label for="consent">Shaxsiy ma'lumotlarni qayta ishlashga roziman</label>
           </div>
           
-          <button type="submit" class="submit-btn">
+          <button type="submit" class="submit-btn" [disabled]="consultForm.invalid">
             So'rov yuborish
             <i class="fas fa-paper-plane"></i>
           </button>

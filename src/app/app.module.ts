@@ -6,6 +6,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -103,6 +104,7 @@ import { MockUpsComponent } from './pages/mock-ups/mock-ups.component';
     MatSidenavModule,
     MatListModule,
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [
     AuthService,

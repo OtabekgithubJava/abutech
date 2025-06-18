@@ -50,10 +50,10 @@
 
 .map-container {
   position: relative;
-  border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: var(--box-shadow);
   height: 100%;
+  border-radius: 10px;
   
   iframe {
     width: 100%;
@@ -70,6 +70,7 @@
   padding: 1.5rem;
   box-shadow: var(--box-shadow);
   height: 100%;
+  border-radius: 10px;
 }
 
 .info-header {
