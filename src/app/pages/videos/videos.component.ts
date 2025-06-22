@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [
+    { id: '0bpeF06sFS8', title: 'Angular Component: Componentlarga bo\'lib BooKitob loyihasi', type: 'C++' },
     { id: '5GBmyecfcAk', title: 'Interceptor: JTW tokenni frontendda olib, backendga saqlash', type: 'A' },
     { id: '2blocJzZUQU', title: 'Tarkib 2: Angularda DLS to\'liq tarkib kartasini chizdik', type: 'C++' },
     { id: 'ZJj_BNAL-c4', title: 'Tarkib 1: Angularda DLS to\'liq tarkib kartasini chizdik', type: 'C++' },
