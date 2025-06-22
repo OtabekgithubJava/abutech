@@ -41,7 +41,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { 
     path: 'video', 
-    component: LoginComponent,
+    component: VideosComponent,
+    canActivate: [AuthGuardService],
     pathMatch: 'full' 
   },
   { 
