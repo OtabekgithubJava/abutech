@@ -26,7 +26,7 @@ export class LoginComponent {
       }).then(() => {
         window.location.reload();
       });
-    } else if (this.username === 'abutech@outlook.com' && this.password === '15215') {
+    } else if (this.username === 'abutech@gmail.com' && this.password === 'seeShark') {
       localStorage.setItem('isVideoAuthenticated', 'true');
       this.router.navigate(['/video'], { 
         replaceUrl: true,
