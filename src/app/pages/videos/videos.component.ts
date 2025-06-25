@@ -9,6 +9,8 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [
+    { id: 'xrnyL-MMhhw', title: 'CHL Models: 1haftalik Champions liga loyihasi | 2-qism', type: 'A' },
+    { id: 'xuVON-jazF4', title: 'CHL Database: 1haftalik Champions liga loyihasi | 1-qism', type: 'A' },
     { id: '0bpeF06sFS8', title: 'Angular Component: Componentlarga bo\'lib BooKitob loyihasi', type: 'C++' },
     { id: '5GBmyecfcAk', title: 'Interceptor: JTW tokenni frontendda olib, backendga saqlash', type: 'A' },
     { id: '2blocJzZUQU', title: 'Tarkib 2: Angularda DLS to\'liq tarkib kartasini chizdik', type: 'C++' },
