@@ -9,6 +9,8 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [
+    { id: '5y3cvWHJSoI', title: 'CHL Controllers: 1haftalik Champions liga loyihasi | 3-qism', type: 'A' },
+    { id: 'rzYsW4EC-rY', title: 'CHL Services: 1haftalik Champions liga loyihasi | 3-qism', type: 'A' },
     { id: 'xrnyL-MMhhw', title: 'CHL Models: 1haftalik Champions liga loyihasi | 2-qism', type: 'A' },
     { id: 'xuVON-jazF4', title: 'CHL Database: 1haftalik Champions liga loyihasi | 1-qism', type: 'A' },
     { id: '0bpeF06sFS8', title: 'Angular Component: Componentlarga bo\'lib BooKitob loyihasi', type: 'C++' },
