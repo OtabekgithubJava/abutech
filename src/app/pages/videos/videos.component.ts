@@ -9,6 +9,8 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [
+    { id: 'ZnscWNqiY70', title: 'CHL FULL CRUD: 1haftalik Champions liga loyihasi | 6-qism', type: 'A' },
+    { id: '3UkXNpNiou8', title: 'CHL Angular: 1haftalik Champions liga loyihasi | 5-qism', type: 'A' },
     { id: '0K1MYhBPPl0', title: 'CHL DTO & Angular: 1haftalik Champions liga loyihasi | 4-qism', type: 'A' },
     { id: '5y3cvWHJSoI', title: 'CHL Controllers: 1haftalik Champions liga loyihasi | 3-qism', type: 'A' },
     { id: 'rzYsW4EC-rY', title: 'CHL Services: 1haftalik Champions liga loyihasi | 3-qism', type: 'A' },
