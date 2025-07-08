@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [
+    { id: 'tRv7IUtAdbI', title: 'Ish: Upword, Freelanserlik, HH sayti, Resume yozish, LinkedIn', type: 'A' },
     { id: '9NRk04jtqTw', title: 'Sho`r Hotel: Professional rang, iconchalar va HTML/SCSS', type: 'C++' },
     { id: 'JGEuAlZ72CY', title: 'CHL Front-Auth: 1haftalik Champions liga loyihasi | 9-qism', type: 'A' },
     { id: 'MdTUu9wcDC0', title: 'CHL Home/Dashboard: 1haftalik Champions liga loyihasi | 8-qism', type: 'A' },
