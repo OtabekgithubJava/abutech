@@ -9,6 +9,9 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [
+    { id: 'CquG5Htq5SQ', title: 'Coffee Proyekti 2: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
+    { id: 'Tja8TG3xhiQ', title: 'Coffee Proyekti: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
+    { id: '5viX88dgv6Q', title: 'NgLar: Angulardagi NGIf va NGFOR orqali HTMLNi TSga ulash', type: 'C++' },
     { id: 'tRv7IUtAdbI', title: 'Ish: Upword, Freelanserlik, HH sayti, Resume yozish, LinkedIn', type: 'A' },
     { id: '9NRk04jtqTw', title: 'Sho`r Hotel: Professional rang, iconchalar va HTML/SCSS', type: 'C++' },
     { id: 'JGEuAlZ72CY', title: 'CHL Front-Auth: 1haftalik Champions liga loyihasi | 9-qism', type: 'A' },
