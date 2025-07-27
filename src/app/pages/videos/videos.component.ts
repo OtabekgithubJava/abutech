@@ -9,7 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
-    { id: 'IJIF66aZkW8', title: 'Ish: Upword, Freelanserlik, HH sayti, Resume yozish, LinkedIn', type: 'A' },
+    { id: 'IJIF66aZkW8', title: 'Last Dance: Repo Dezayn Paterni orqali ohirgi FULL CRUD', type: 'A' },
     { id: '_J_2W-1Mkvk', title: 'Edu loyihasi: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
     { id: 'CquG5Htq5SQ', title: 'Coffee Proyekti 2: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
     { id: 'Tja8TG3xhiQ', title: 'Coffee Proyekti: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
