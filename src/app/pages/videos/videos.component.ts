@@ -8,7 +8,9 @@ import { title } from 'node:process';
   styleUrls: ['./videos.component.scss']
 })
 export class VideosComponent implements OnInit {
-  videos = [
+  videos = [ 
+    { id: 'IJIF66aZkW8', title: 'Ish: Upword, Freelanserlik, HH sayti, Resume yozish, LinkedIn', type: 'A' },
+    { id: '_J_2W-1Mkvk', title: 'Edu loyihasi: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
     { id: 'CquG5Htq5SQ', title: 'Coffee Proyekti 2: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
     { id: 'Tja8TG3xhiQ', title: 'Coffee Proyekti: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
     { id: '5viX88dgv6Q', title: 'NgLar: Angulardagi NGIf va NGFOR orqali HTMLNi TSga ulash', type: 'C++' },
