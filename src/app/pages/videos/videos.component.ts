@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'iIaC6806R98', title: 'CQRS Design Pattern 2: MediatR orqali clean arxitektura', type: 'A' },
     { id: 'UnX1RKH_eWY', title: 'CQRS Design Pattern: MediatR orqali clean arxitektura', type: 'A' },
     { id: 'IJIF66aZkW8', title: 'Last Dance: Repo Dezayn Paterni orqali ohirgi FULL CRUD', type: 'A' },
     { id: '_J_2W-1Mkvk', title: 'Edu loyihasi: Angular IF va FORni qaytarib, amaliyot', type: 'C++' },
