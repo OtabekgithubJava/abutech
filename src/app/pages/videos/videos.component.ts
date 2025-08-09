@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'lhWb7AoMqp0', title: 'Flutter kirish: Run qilish, moslama qo\'yish va AI orqali misol', type: 'F' },
     { id: 'iIaC6806R98', title: 'CQRS Design Pattern 2: MediatR orqali clean arxitektura', type: 'A' },
     { id: 'UnX1RKH_eWY', title: 'CQRS Design Pattern: MediatR orqali clean arxitektura', type: 'A' },
     { id: 'IJIF66aZkW8', title: 'Last Dance: Repo Dezayn Paterni orqali ohirgi FULL CRUD', type: 'A' },
@@ -116,7 +117,7 @@ export class VideosComponent implements OnInit {
   filteredVideos = this.videos;
   isLightTheme = false;
   activeCategory = 'All';
-  categories = ['All', 'C#', 'C++', 'A', 'Other'];
+  categories = ['All', 'C#', 'C++', 'A', 'F', 'Other'];
 
   constructor(private sanitizer: DomSanitizer) {}
 
@@ -130,6 +131,7 @@ export class VideosComponent implements OnInit {
       'C#': 'C# Dasturlash',
       'C++': 'C++ Dasturlash',
       'A': 'Full Stack',
+      'F': 'Flutter',
       'Other': 'Boshqa'
     };
     return categoryMap[type] || type;
