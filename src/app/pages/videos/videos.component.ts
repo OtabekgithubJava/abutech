@@ -9,6 +9,9 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'Z9q9alFUNyY', title: 'MVC: MVC ga kirish va CSQR + MEdiatR qaytarish | 2-qism', type: 'A' },
+    { id: 'pR0EwRW8B_s', title: 'MVC: MVC ga kirish va CSQR + MEdiatR qaytarish | 1-qism', type: 'A' },
+    { id: 'lhWb7AoMqp0', title: 'Flutter o\'zgaruvchi: Run qilish qaytarish va o\'zgaruvchilar', type: 'F' },
     { id: 'lhWb7AoMqp0', title: 'Flutter kirish: Run qilish, moslama qo\'yish va AI orqali misol', type: 'F' },
     { id: 'iIaC6806R98', title: 'CQRS Design Pattern 2: MediatR orqali clean arxitektura', type: 'A' },
     { id: 'UnX1RKH_eWY', title: 'CQRS Design Pattern: MediatR orqali clean arxitektura', type: 'A' },
