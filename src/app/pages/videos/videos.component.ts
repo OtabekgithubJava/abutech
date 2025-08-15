@@ -9,6 +9,8 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'reL9Y-85Qg4', title: 'MVC 3: Controllerni MVCga ulab, CRUD yarmi (Edit & Create\'siz)', type: 'A' },
+    { id: 'nIEWRZ3nyJ8', title: 'Flutter shart operatorlari: if/else va || va && belgilari', type: 'F' },
     { id: 'Z9q9alFUNyY', title: 'MVC: MVC ga kirish va CSQR + MEdiatR qaytarish | 2-qism', type: 'A' },
     { id: 'pR0EwRW8B_s', title: 'MVC: MVC ga kirish va CSQR + MEdiatR qaytarish | 1-qism', type: 'A' },
     { id: 'lhWb7AoMqp0', title: 'Flutter o\'zgaruvchi: Run qilish qaytarish va o\'zgaruvchilar', type: 'F' },
