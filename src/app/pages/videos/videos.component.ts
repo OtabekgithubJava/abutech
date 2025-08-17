@@ -9,6 +9,8 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'Cvrv5OhyBZY', title: 'UserClaims: Jwt Token orqali UserId ni avtomatik qiymatlash', type: 'A' },
+    { id: 'btRLpBOm7Hg', title: 'MVC 4: Controllerni MVCga ulab, CRUD qolgani (Edit & Create)', type: 'A' },
     { id: 'O2frRINTw2c', title: 'String: Dart tilida string funksiyalari va misollari', type: 'F' },
     { id: 'reL9Y-85Qg4', title: 'MVC 3: Controllerni MVCga ulab, CRUD yarmi (Edit & Create\'siz)', type: 'A' },
     { id: 'nIEWRZ3nyJ8', title: 'Flutter shart operatorlari: if/else va || va && belgilari', type: 'F' },
