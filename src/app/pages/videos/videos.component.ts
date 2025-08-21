@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'wqZkuZ0968E', title: 'Loop: Dart tilida For & While looplari va misollari', type: 'F' },
     { id: 'Cvrv5OhyBZY', title: 'UserClaims: Jwt Token orqali UserId ni avtomatik qiymatlash', type: 'A' },
     { id: 'btRLpBOm7Hg', title: 'MVC 4: Controllerni MVCga ulab, CRUD qolgani (Edit & Create)', type: 'A' },
     { id: 'O2frRINTw2c', title: 'String: Dart tilida string funksiyalari va misollari', type: 'F' },
