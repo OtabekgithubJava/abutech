@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'O6Danzfjgzk', title: 'LIST CRUD: For/List/While qaytarish, List CRUD bo\'yicha loyichacha ', type: 'F' },
     { id: 'EUkfJ9MYp8s', title: 'Telegram bot: FLashcart, Lug\'at, Mashg\'ulot va User login', type: 'A' },
     { id: 'wqZkuZ0968E', title: 'Loop: Dart tilida For & While looplari va misollari', type: 'F' },
     { id: 'Cvrv5OhyBZY', title: 'UserClaims: Jwt Token orqali UserId ni avtomatik qiymatlash', type: 'A' },
