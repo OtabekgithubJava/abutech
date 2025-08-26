@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'KjKyiW_FZF4', title: 'MicroServices & Deployment: MicroServiceda RUN qilish va serverlar', type: 'A' },
     { id: 'n_R1Il9JFVw', title: 'Funksiya: Dart tilida kurslari ro\'yhati CRUDi bo\'yicha misol', type: 'F' },
     { id: 'WaW2W_SUh6k', title: 'Telegram bot 2: FLashcart, Lug\'at, Mashg\'ulot va User login', type: 'C#' },
     { id: 'O6Danzfjgzk', title: 'LIST CRUD: For/List/While qaytarish, List CRUD bo\'yicha loyichacha ', type: 'F' },
