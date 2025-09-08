@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'QN2y-OQpFdI', title: 'Topshiriq javoblari: Polindrome, Teskari for, string concotenation', type: 'F' },
     { id: 'AeH8RxRhcng', title: 'Exam Recap: Dart tili birinchi oy imtihon topshirig\'i 0dan', type: 'F' },
     { id: 'KjKyiW_FZF4', title: 'MicroServices & Deployment: MicroServiceda RUN qilish va serverlar', type: 'A' },
     { id: 'n_R1Il9JFVw', title: 'Funksiya: Dart tilida kurslari ro\'yhati CRUDi bo\'yicha misol', type: 'F' },
