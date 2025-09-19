@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'zql0cRBSu50', title: 'Flutter Card: Phil foden misolida Flutter card, rasm qo\'shish', type: 'F' },
     { id: 'ecKW7QT0WLs', title: 'Scaffold: Android studioda 0dan => appBar, font, icon, colors, & funksiya', type: 'F' },
     { id: 'HZcW97Ae1fk', title: 'Inheritance: OOPda classdan classga voris olish tushunchasi va misol', type: 'F' },
     { id: 'Tk8dbTOp3DU', title: 'OOP Introduction: Class, Object, Funksiya, Constructor va misollar', type: 'F' },
