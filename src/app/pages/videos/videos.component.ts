@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'xkC-ifm52d8', title: 'Guruh Amaliyoti: Darslarni qaytarib, SF3 guruhi Avatar bilan kartalarda', type: 'F' },
     { id: '5doPor0U-HM', title: 'Flutter & Phone: Flutterda dezayn, rasm qo\'yish va telefonga ulash', type: 'F' },
     { id: 'zql0cRBSu50', title: 'Flutter Card: Phil foden misolida Flutter card, rasm qo\'shish', type: 'F' },
     { id: 'ecKW7QT0WLs', title: 'Scaffold: Android studioda 0dan => appBar, font, icon, colors, & funksiya', type: 'F' },
