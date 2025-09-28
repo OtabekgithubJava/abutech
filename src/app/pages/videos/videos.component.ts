@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'aPHq2SMjry8', title: 'Birinchi loyiha: Dembele misolida Row, Column, Rasm, Tugmacha va Padding qaytarish', type: 'F' },
     { id: '_ZPisbikfCo', title: 'Padding & Margin: Container, Row va Column orqali formatlash va dezaynlash', type: 'F' },
     { id: 'TXnRqq6rffM', title: 'Flutter Buttons: TextButton, ElevationButton, FloatingActionButton & IconButton', type: 'F' },
     { id: 'xkC-ifm52d8', title: 'Guruh Amaliyoti: Darslarni qaytarib, SF3 guruhi Avatar bilan kartalarda', type: 'F' },
