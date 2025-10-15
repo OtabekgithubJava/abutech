@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'H5Qm6jr2Upg', title: 'Cards: Class va List yoradimida Flutter oynasida kartalarni avtomatik chiqarish', type: 'F' },
     { id: 'rGard7085j0', title: 'setState: Sentabr oydagi barcha o\'tilgan darslari qaytarib, yangicha dezayn', type: 'F' },
     { id: 'aPHq2SMjry8', title: 'Birinchi loyiha: Dembele misolida Row, Column, Rasm, Tugmacha va Padding qaytarish', type: 'F' },
     { id: '_ZPisbikfCo', title: 'Padding & Margin: Container, Row va Column orqali formatlash va dezaynlash', type: 'F' },
