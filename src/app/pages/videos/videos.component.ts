@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'sJSfCJ6gxGo', title: 'Flutter Routes: Ilovani sahifalarga ajratib, ICON tugmalar orqali sahifaga o\'tish', type: 'F' },
     { id: 'IX0rfCFW9bE', title: 'User Input Field: TextFlied widgeti orqali foydalanuvchidan ma\'lumot olish', type: 'F' },
     { id: 'H5Qm6jr2Upg', title: 'Cards: Class va List yoradimida Flutter oynasida kartalarni avtomatik chiqarish', type: 'F' },
     { id: 'rGard7085j0', title: 'setState: Sentabr oydagi barcha o\'tilgan darslari qaytarib, yangicha dezayn', type: 'F' },
