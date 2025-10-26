@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'BSqC9bRPhmo', title: 'Flutter ThemeData: Birinchi dezayn berib, keyin Widgetlar bilan ishlash', type: 'F' },
     { id: 'aNwLcBIaX44', title: 'Flutter Loyiha: Home, Profile, About va Login pagelarini Navigator orqali ulash', type: 'F' },
     { id: 'sJSfCJ6gxGo', title: 'Flutter Routes: Ilovani sahifalarga ajratib, ICON tugmalar orqali sahifaga o\'tish', type: 'F' },
     { id: 'IX0rfCFW9bE', title: 'User Input Field: TextFlied widgeti orqali foydalanuvchidan ma\'lumot olish', type: 'F' },
