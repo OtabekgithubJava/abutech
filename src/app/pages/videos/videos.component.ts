@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'c9-2vHyG3EI', title: 'Uzum Market: Oktabr oyidagi hamma darslarni qaytarib, Uzum Marketga taqlid', type: 'F' },
     { id: 'nHnLKjqXWwo', title: 'Flutter BottomNavbar: Flutter yangicha dezayn - pastgi iconchalar qo\'shish (chala)', type: 'F' },
     { id: 'l_LOI2GgJ64', title: 'Flutter Shopping App: Class, List, Widget, Map, ThemeData, Constructorni qaytarish', type: 'F' },
     { id: 'BSqC9bRPhmo', title: 'Flutter ThemeData: Birinchi dezayn berib, keyin Widgetlar bilan ishlash', type: 'F' },
