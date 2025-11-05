@@ -9,7 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
-    { id: 'c9-2vHyG3EI', title: '❌ Youtube / ✅ BeTube: Flutterda GRIDVIEW dezayni va Ekranga video chiqarish', type: 'F' },
+    { id: 'j7ZBasvfq7c', title: '❌ Youtube / ✅ BeTube: Flutterda GRIDVIEW dezayni va Ekranga video chiqarish', type: 'F' },
     { id: 'c9-2vHyG3EI', title: 'Uzum Market: Oktabr oyidagi hamma darslarni qaytarib, Uzum Marketga taqlid', type: 'F' },
     { id: 'nHnLKjqXWwo', title: 'Flutter BottomNavbar: Flutter yangicha dezayn - pastgi iconchalar qo\'shish (chala)', type: 'F' },
     { id: 'l_LOI2GgJ64', title: 'Flutter Shopping App: Class, List, Widget, Map, ThemeData, Constructorni qaytarish', type: 'F' },
