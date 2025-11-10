@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'qI4wydKTIrY', title: 'Exam Review: Imtihon loyihasini 2 soatda Profilegacha qismi + tushuntirilgan widgetlar', type: 'F' },
     { id: 'j7ZBasvfq7c', title: '❌ Youtube / ✅ BeTube: Flutterda GRIDVIEW dezayni va Ekranga video chiqarish', type: 'F' },
     { id: 'c9-2vHyG3EI', title: 'Uzum Market: Oktabr oyidagi hamma darslarni qaytarib, Uzum Marketga taqlid', type: 'F' },
     { id: 'nHnLKjqXWwo', title: 'Flutter BottomNavbar: Flutter yangicha dezayn - pastgi iconchalar qo\'shish (chala)', type: 'F' },
