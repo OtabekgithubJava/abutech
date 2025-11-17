@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'XOHdKRAmk8M', title: 'Smooth Page Indicator: Errorlarni tuzatish, PageView, Controller, Nuqtalar va Effectlar', type: 'F' },
     { id: '8WNiQY9Ai98', title: 'Flutter TabBar & Logo: Flutter loyihaga shaxsiy logi qo\'shish va TabBar Widgeti', type: 'F' },
     { id: 'qI4wydKTIrY', title: 'Exam Review: Imtihon loyihasini 2 soatda Profilegacha qismi + tushuntirilgan widgetlar', type: 'F' },
     { id: 'j7ZBasvfq7c', title: '❌ Youtube / ✅ BeTube: Flutterda GRIDVIEW dezayni va Ekranga video chiqarish', type: 'F' },
