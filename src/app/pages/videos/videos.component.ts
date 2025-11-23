@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'iUbYUNFGz6Q', title: 'Tayyor dezaynga mimika qilish va yaxshiroq Container: Kasallar bilan o\'tilgan dars', type: 'F' },
     { id: 'XOHdKRAmk8M', title: 'Smooth Page Indicator: Errorlarni tuzatish, PageView, Controller, Nuqtalar va Effectlar', type: 'F' },
     { id: '8WNiQY9Ai98', title: 'Flutter TabBar & Logo: Flutter loyihaga shaxsiy logi qo\'shish va TabBar Widgeti', type: 'F' },
     { id: 'qI4wydKTIrY', title: 'Exam Review: Imtihon loyihasini 2 soatda Profilegacha qismi + tushuntirilgan widgetlar', type: 'F' },
