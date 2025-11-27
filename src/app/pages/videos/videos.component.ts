@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'OHPyZ4KhTe8', title: 'Drawer + Shared Preferences: Telegramdagidek “Navbar“ qo\'shish va ma\'lumotlarni saqlash', type: 'F' },
     { id: 'G8juUh2nRn0', title: 'Shared Preferences: Flutterda ma\'lumotlarni telefon miyasiga saqlash va olish', type: 'F' },
     { id: 'iUbYUNFGz6Q', title: 'Tayyor dezaynga mimika qilish va yaxshiroq Container: Kasallar bilan o\'tilgan dars', type: 'F' },
     { id: 'XOHdKRAmk8M', title: 'Smooth Page Indicator: Errorlarni tuzatish, PageView, Controller, Nuqtalar va Effectlar', type: 'F' },
