@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'q3ESZAGt7ZA', title: 'Imtihonga tayyorlanish uchun Apple loyihasi | 1-qism: Plan qilish va Register page', type: 'F' },
     { id: 'M6dKIs9pj1w', title: 'Camera & Gallareya: Flutterda Drawer qismiga profil rasmni kamera yoki gallareyadan tanlash', type: 'F' },
     { id: 'OHPyZ4KhTe8', title: 'Drawer + Shared Preferences: Telegramdagidek “Navbar“ qo\'shish va ma\'lumotlarni saqlash', type: 'F' },
     { id: 'G8juUh2nRn0', title: 'Shared Preferences: Flutterda ma\'lumotlarni telefon miyasiga saqlash va olish', type: 'F' },
