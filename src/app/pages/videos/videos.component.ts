@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'Wd4KkM4WcFs', title: 'Flutter HTTP API: HTTP protakoli orqali (request/response) internetdan ma\'lumot olish', type: 'F' },
     { id: 'cPhBF337prQ', title: 'Flutter Form: Flutterda anketaga validator qo\'shish, appBar to\'liq va camera darsi qaytarish', type: 'F' },
     { id: 'MmMaCqjpryc', title: 'Imtihonga tayyorlanish uchun Apple loyihasi | 2-qism: Drawer, BottomNavigation & HomePage', type: 'F' },
     { id: 'q3ESZAGt7ZA', title: 'Imtihonga tayyorlanish uchun Apple loyihasi | 1-qism: Plan qilish va Register page', type: 'F' },
