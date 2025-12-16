@@ -9,6 +9,10 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'BFHaqOY60MA', title: 'Flutter GridView: Dars qoldirgan va o\'zlashtirolmaganlar uchun GridView va HTTP mavzusi 0`dan...', type: 'F' },
+    { id: '9hNStzY3Bdc', title: 'Flutter PageView: Dars qoldirgan va o\'zlashtirolmaganlar uchun PageView mavzusi 0`dan...', type: 'F' },
+    { id: 'uyKIGZVGH1M', title: 'Flutter Drawer: Dars qoldirgan va o\'zlashtirolmaganlar uchun Drawer mavzusi 0`dan...', type: 'F' },
+    { id: '2c5OoC-iLqw', title: 'Flutter SetUp: Flutterdan loyiha yaratib, eng asosiy qismlarini qaytarish...', type: 'F' },
     { id: 'Wd4KkM4WcFs', title: 'Flutter HTTP API: HTTP protakoli orqali (request/response) internetdan ma\'lumot olish', type: 'F' },
     { id: 'cPhBF337prQ', title: 'Flutter Form: Flutterda anketaga validator qo\'shish, appBar to\'liq va camera darsi qaytarish', type: 'F' },
     { id: 'MmMaCqjpryc', title: 'Imtihonga tayyorlanish uchun Apple loyihasi | 2-qism: Drawer, BottomNavigation & HomePage', type: 'F' },
