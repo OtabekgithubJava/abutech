@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: '8SEUzOO1as8', title: 'Firebase teoriyasi: Firebase va SharedPreferences farqi va ma\'lumot saqlash va olish | 2-qism', type: 'F' },
     { id: '34wjtKQdgqg', title: 'Firebase teoriyasi: Firebase va SharedPreferences farqi va ma\'lumot saqlash va olish | 1-qism', type: 'F' },
     { id: 'BFHaqOY60MA', title: 'Flutter GridView: Dars qoldirgan va o\'zlashtirolmaganlar uchun GridView va HTTP mavzusi 0`dan...', type: 'F' },
     { id: '9hNStzY3Bdc', title: 'Flutter PageView: Dars qoldirgan va o\'zlashtirolmaganlar uchun PageView mavzusi 0`dan...', type: 'F' },
