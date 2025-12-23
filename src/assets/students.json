@@ -1,0 +1,162 @@
+[
+  {
+    "id": "stu001",
+    "password": "24680",
+    "name": "N. Muhammadaziz",
+    "date": "2025-21-12",
+    "overall": 5.0,
+
+    "listening": {
+      "correct": 16,
+      "score": 5.0
+    },
+    "reading": {
+      "correct": 17,
+      "score": 5.0
+    },
+    "writing": {
+      "task1": 5.5,
+      "task2": 4.5
+    }
+  },
+  {
+    "id": "stu002",
+    "password": "13579",
+    "name": "I. Ra'noxon",
+    "date": "2025-21-12",
+    "overall": 4.0,
+
+    "listening": {
+      "correct": 2,
+      "score": 2.5
+    },
+    "reading": {
+      "correct": 13,
+      "score": 4.5
+    },
+    "writing": {
+      "task1": 5.5,
+      "task2": 0.0
+    }
+  },
+  {
+    "id": "stu003",
+    "password": "90909",
+    "name": "Y. Ibrohimjon",
+    "date": "2025-21-12",
+    "overall": 3.5,
+
+    "listening": {
+      "correct": 0,
+      "score": 2.5
+    },
+    "reading": {
+      "correct": 6,
+      "score": 3.0
+    },
+    "writing": {
+      "task1": 4.5,
+      "task2": 3.5
+    }
+  },
+  {
+    "id": "stu004",
+    "password": "67890",
+    "name": "A. Abdulhaq",
+    "date": "2025-21-12",
+    "overall": 3.0,
+
+    "listening": {
+      "correct": 4,
+      "score": 2.5
+    },
+    "reading": {
+      "correct": 6,
+      "score": 3.0
+    },
+    "writing": {
+      "task1": 3.5,
+      "task2": 1.5
+    }
+  },
+  {
+    "id": "stu005",
+    "password": "12123",
+    "name": "G`. Mushtariy",
+    "date": "2025-21-12",
+    "overall": 3.0,
+
+    "listening": {
+      "correct": 0,
+      "score": 2.5
+    },
+    "reading": {
+      "correct": 6,
+      "score": 3.0
+    },
+    "writing": {
+      "task1": 5.5,
+      "task2": 0.0
+    }
+  },
+  {
+    "id": "stu006",
+    "password": "45454",
+    "name": "S. Sarvinoz",
+    "date": "2025-21-12",
+    "overall": 3.0,
+
+    "listening": {
+      "correct": 1,
+      "score": 2.5
+    },
+    "reading": {
+      "correct": 6,
+      "score": 3.0
+    },
+    "writing": {
+      "task1": 5.0,
+      "task2": 0.0
+    }
+  },
+  {
+    "id": "stu007",
+    "password": "23456",
+    "name": "Ali Karimov",
+    "date": "2025-21-12",
+    "overall": 6.5,
+
+    "listening": {
+      "correct": 28,
+      "score": 7.0
+    },
+    "reading": {
+      "correct": 24,
+      "score": 6.5
+    },
+    "writing": {
+      "task1": 6.0,
+      "task2": 6.5
+    }
+  },
+  {
+    "id": "stu008",
+    "password": "98765",
+    "name": "Ali Karimov",
+    "date": "2025-21-12",
+    "overall": 6.5,
+
+    "listening": {
+      "correct": 28,
+      "score": 7.0
+    },
+    "reading": {
+      "correct": 24,
+      "score": 6.5
+    },
+    "writing": {
+      "task1": 6.0,
+      "task2": 6.5
+    }
+  }
+]

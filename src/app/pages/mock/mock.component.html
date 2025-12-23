@@ -1,0 +1,39 @@
+<div class="mock-wrapper">
+  <div class="mock-card">
+    <div class="mock-header">
+      <h1>IELTS Mock Results</h1>
+      <p>Enter your password to view your personal score report</p>
+    </div>
+
+    <form class="mock-form" (ngSubmit)="login()">
+      <div class="password-field">
+        <input
+          [type]="showPassword ? 'text' : 'password'"
+          placeholder="Your mock password"
+          [(ngModel)]="password"
+          name="password"
+          required
+        />
+
+        <button
+          type="button"
+          class="toggle-visibility"
+          (click)="togglePassword()"
+          aria-label="Toggle password visibility"
+        >
+          <i class="fas" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+        </button>
+      </div>
+
+      <button type="submit">View Results</button>
+
+      <p class="error" *ngIf="error">
+        Parol xato. Botga ismingizni yozib, parolingizni oling!.
+      </p>
+    </form>
+
+    <div class="mock-footer">
+      <span>AbuTech Education Center</span>
+    </div>
+  </div>
+</div>

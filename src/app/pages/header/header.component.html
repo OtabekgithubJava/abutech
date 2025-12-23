@@ -6,6 +6,9 @@
       <nav class="desktop-nav">
         <a class="nav-link" [routerLink]="['/courses']">Kurslar</a>
       </nav>
+      <nav class="desktop-nav">
+        <a class="nav-link" [routerLink]="['/mock']">Mock</a>
+      </nav>
     </div>
     <div class="right-side">
       <nav class="desktop-nav">
@@ -27,6 +30,7 @@
     <a class="mobile-nav-link" [routerLink]="['/courses']" (click)="toggleMenu()">Kurslar</a>
     <a class="mobile-nav-link" [routerLink]="['/graduates']" (click)="toggleMenu()">Bitiruvchilar</a>
     <a class="mobile-nav-link" [routerLink]="['/video']" (click)="toggleMenu()">Online ta'lim</a>
+    <a class="mobile-nav-link" [routerLink]="['/mock']" (click)="toggleMenu()">Mock</a>
     <a class="mobile-nav-link" href="https://t.me/Otabek_Writing" target="_blank" (click)="toggleMenu()">Blog</a>
     <a class="mobile-phone" href="tel:+998910562712" (click)="toggleMenu()">
       <i class="fas fa-phone-alt"></i>

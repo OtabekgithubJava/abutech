@@ -20,4 +20,8 @@ export class AppComponent {
   isVideoRoute(): boolean {
     return this.router.url === '/video';
   }
+
+  isMockRoute(): boolean {
+    return this.router.url.startsWith('/mock');
+  }
 }

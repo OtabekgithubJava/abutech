@@ -51,6 +51,8 @@ import { ParentFormComponent } from './pages/admin/parents/parent-form/parent-fo
 import { VideosComponent } from './pages/videos/videos.component';
 import { CoursesComponent } from './pages/admin/courses/courses.component';
 import { MockUpsComponent } from './pages/mock-ups/mock-ups.component';
+import { MockComponent } from './pages/mock/mock.component';
+import { MockResultsComponent } from './pages/mock/mock-results/mock-results.component';
 
 
 @NgModule({
@@ -89,7 +91,9 @@ import { MockUpsComponent } from './pages/mock-ups/mock-ups.component';
     ParentFormComponent,
     CoursesComponent,
     VideosComponent,
-    MockUpsComponent
+    MockUpsComponent,
+    MockComponent,
+    MockResultsComponent
   ],
   imports: [
     BrowserModule,

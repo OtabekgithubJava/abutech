@@ -1,0 +1,79 @@
+<div class="results-wrapper" *ngIf="student">
+  <div class="results-card">
+
+    <header class="results-header">
+      <h1>IELTS Mock Result</h1>
+      <p class="subtitle">Personal score report</p>
+    </header>
+
+    <section class="student-info">
+      <div class="info">
+        <span class="label">Candidate</span>
+        <span class="value">{{ student.name }}</span>
+      </div>
+      <div class="info">
+        <span class="label">Test Date</span>
+        <span class="value">{{ student.date }}</span>
+      </div>
+    </section>
+
+    <section class="overall-band">
+      <span class="band-label">Overall Band</span>
+      <span class="band-score">{{ student.overall }}</span>
+    </section>
+
+    <section class="modules">
+        <!-- LISTENING -->
+        <div class="module">
+            <h3>Listening</h3>
+
+            <div class="row">
+            <span>Correct answers</span>
+            <strong>{{ listening.correct }} / 40</strong>
+            </div>
+
+            <div class="row score">
+            <span>Band score</span>
+            <strong>{{ listening.score }}</strong>
+            </div>
+        </div>
+
+        <!-- READING -->
+        <div class="module">
+            <h3>Reading</h3>
+
+            <div class="row">
+            <span>Correct answers</span>
+            <strong>{{ reading.correct }} / 40</strong>
+            </div>
+
+            <div class="row score">
+            <span>Band score</span>
+            <strong>{{ reading.score }}</strong>
+            </div>
+        </div>
+
+        <!-- WRITING -->
+        <div class="module">
+            <h3>Writing</h3>
+
+            <div class="row">
+            <span>Task 1</span>
+            <strong>{{ writing.task1 }}</strong>
+            </div>
+
+            <div class="row">
+            <span>Task 2</span>
+            <strong>{{ writing.task2 }}</strong>
+            </div>
+        </div>
+
+        </section>
+
+
+    <footer class="results-footer">
+      <button class="logout" (click)="logout()">Log out</button>
+    </footer>
+
+  </div>
+</div>

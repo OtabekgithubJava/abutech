@@ -19,6 +19,8 @@ import { PaymentsComponent } from './pages/admin/payments/payments.component';
 import { ParentsComponent } from './pages/admin/parents/parents.component';
 import { StudentsComponent } from './pages/admin/students/students.component';
 import { VideosComponent } from './pages/videos/videos.component';
+import { MockComponent } from './pages/mock/mock.component';
+import { MockResultsComponent } from './pages/mock/mock-results/mock-results.component';
 
 // @Injectable({
 //   providedIn: 'root'
@@ -44,6 +46,13 @@ const routes: Routes = [
     component: VideosComponent,
     canActivate: [AuthGuardService],
     pathMatch: 'full' 
+  },
+  {
+    path: 'mock',
+    children: [
+      { path: '', component: MockComponent },
+      { path: 'results', component: MockResultsComponent } 
+    ]
   },
   { 
     path: 'admin',

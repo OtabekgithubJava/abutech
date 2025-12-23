@@ -1,4 +1,4 @@
-<ng-container *ngIf="!isAdminRoute() && !isLoginRoute() && !isVideoRoute()">
+<ng-container *ngIf="!isAdminRoute() && !isLoginRoute() && !isVideoRoute() && !isMockRoute()">
   <app-header></app-header>
   <app-welcome></app-welcome>
   <app-about-abutech></app-about-abutech>
@@ -10,6 +10,6 @@
   <app-footer></app-footer>
 </ng-container>
 
-<ng-container *ngIf="isAdminRoute() || isLoginRoute() || isVideoRoute()">
+<ng-container *ngIf="isAdminRoute() || isLoginRoute() || isVideoRoute() || isMockRoute()">
   <router-outlet></router-outlet>
 </ng-container>
