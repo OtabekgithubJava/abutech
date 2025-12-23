@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: '42V9pFOrLXs', title: 'Firebase teoriyasi: Firebase Firestore orqali ma\'lumotlarni saqlash va chat sistemasi| 5-qism', type: 'F' },
     { id: 'QFD7WE-iHa8', title: 'Firebase teoriyasi: Firebase Authentication orqali real loyihalarnikidek register va login | 4-qism', type: 'F' },
     { id: '-tW1-VQkzJo', title: 'Firebase teoriyasi: Flutterda barcha sahifalarni bir joyda DARK va LIGHT rejimga o\'tkazish | 3-qism', type: 'F' },
     { id: '8SEUzOO1as8', title: 'Firebase teoriyasi: Firebase va SharedPreferences farqi va ma\'lumot saqlash va olish | 2-qism', type: 'F' },
