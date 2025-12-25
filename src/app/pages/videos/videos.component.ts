@@ -9,6 +9,8 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'dyWdCOk8RYc', title: 'Firebase teoriyasi: Errorlarsiz yaxshiroq ranglar, dezaynglar va dark\light rejimi | 7-qism', type: 'F' },
+    { id: 'hobreTHlybc', title: 'Firebase teoriyasi: Errorlarni tuzatish va FireStore orqali xabarlarni saqlash| 6-qism', type: 'F' },
     { id: '42V9pFOrLXs', title: 'Firebase teoriyasi: Firebase Firestore orqali ma\'lumotlarni saqlash va chat sistemasi| 5-qism', type: 'F' },
     { id: 'QFD7WE-iHa8', title: 'Firebase teoriyasi: Firebase Authentication orqali real loyihalarnikidek register va login | 4-qism', type: 'F' },
     { id: '-tW1-VQkzJo', title: 'Firebase teoriyasi: Flutterda barcha sahifalarni bir joyda DARK va LIGHT rejimga o\'tkazish | 3-qism', type: 'F' },
