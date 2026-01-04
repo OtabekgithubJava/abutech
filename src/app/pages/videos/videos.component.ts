@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 't5f_PUUjXcg', title: 'Video Player & PageView: Flutterda ekranga video chiqarish va instagram reels loyihachasi', type: 'F' },
     { id: 'dyWdCOk8RYc', title: 'Firebase teoriyasi: Errorlarsiz yaxshiroq ranglar, dezaynglar va dark\light rejimi | 7-qism', type: 'F' },
     { id: 'hobreTHlybc', title: 'Firebase teoriyasi: Errorlarni tuzatish va FireStore orqali xabarlarni saqlash| 6-qism', type: 'F' },
     { id: '42V9pFOrLXs', title: 'Firebase teoriyasi: Firebase Firestore orqali ma\'lumotlarni saqlash va chat sistemasi| 5-qism', type: 'F' },
