@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: '0i2OofhUnVA', title: 'Flutter Notifications: Http dan foydalanib GridView va Listviewga ma\'lumot olish va bildirishnomalar', type: 'F' },
     { id: '8CzCrq1NCCM', title: 'Youtube Shorts: Video Playerni qaytarib, Positioned orqali video ustiga text va iconcha qo\'shish', type: 'F' },
     { id: 't5f_PUUjXcg', title: 'Video Player & PageView: Flutterda ekranga video chiqarish va instagram reels loyihachasi', type: 'F' },
     { id: 'dyWdCOk8RYc', title: 'Firebase teoriyasi: Errorlarsiz yaxshiroq ranglar, dezaynglar va dark\light rejimi | 7-qism', type: 'F' },
