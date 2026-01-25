@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'rU1PTkjViio', title: 'Challange 2: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
     { id: 'il1O1y0zjDk', title: 'Challange 1: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
     { id: '0i2OofhUnVA', title: 'Flutter Notifications: Http dan foydalanib GridView va Listviewga ma\'lumot olish va bildirishnomalar', type: 'F' },
     { id: '8CzCrq1NCCM', title: 'Youtube Shorts: Video Playerni qaytarib, Positioned orqali video ustiga text va iconcha qo\'shish', type: 'F' },
