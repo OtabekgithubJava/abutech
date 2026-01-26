@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'AVUzUX0BNhs', title: 'Challange 3: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
     { id: 'ejBJcatcLIA', title: 'Challange 2 - qolgan qismi: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
     { id: 'rU1PTkjViio', title: 'Challange 2: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
     { id: 'il1O1y0zjDk', title: 'Challange 1: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
