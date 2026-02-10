@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'dSevbqldo8g', title: 'ListTile: Yangilangan telegram Settings qismiga taqlid (undan ham yaxshirog\'i)', type: 'F' },
     { id: 'REfWmwQXkPM', title: 'Challange 10: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
     { id: 'l9Gi8AInetE', title: 'Challange 9: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
     { id: 'CFBLt_IQkig', title: 'Challange 8: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
