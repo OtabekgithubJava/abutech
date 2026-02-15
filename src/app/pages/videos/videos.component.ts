@@ -9,6 +9,8 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'YRK3XeZVulE', title: 'Bottom Navigation Bar: Flutterda pastgi tugmachalar turlari va body ga ulash', type: 'F' },
+    { id: 'CaHeRUBephY', title: 'Bottom Navigation Bar: Flutterda pastgi tugmachalar va ularga qachon & qanday dezayn beriladi', type: 'F' },
     { id: 'dSevbqldo8g', title: 'ListTile: Yangilangan telegram Settings qismiga taqlid (undan ham yaxshirog\'i)', type: 'F' },
     { id: 'REfWmwQXkPM', title: 'Challange 10: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
     { id: 'l9Gi8AInetE', title: 'Challange 9: kursdagi barcha o\'tilgan mavzulardan foydalanib Instagram loyihasi', type: 'F' },
