@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'kIAO_WWZ7ro', title: 'Errorlar darsi: Gridview ni qaytarish va search logikasini o\'rganish', type: 'F' },
     { id: 'YRK3XeZVulE', title: 'Bottom Navigation Bar: Flutterda pastgi tugmachalar turlari va body ga ulash', type: 'F' },
     { id: 'CaHeRUBephY', title: 'Bottom Navigation Bar: Flutterda pastgi tugmachalar va ularga qachon & qanday dezayn beriladi', type: 'F' },
     { id: 'dSevbqldo8g', title: 'ListTile: Yangilangan telegram Settings qismiga taqlid (undan ham yaxshirog\'i)', type: 'F' },
