@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: 'BkqSEQFiQTI', title: 'Dope Animation: Uzum marketni maqtab beruvchi animatsiyali Splash page', type: 'F' },
     { id: '_VtY0SgU0J4', title: 'ThemeData + BottomAppBar: Ustagram dezaynidagi Bottom iconchalar va IOS dezaynida kungi/tungi rejim', type: 'F' },
     { id: 'kIAO_WWZ7ro', title: 'Errorlar darsi: Gridview ni qaytarish va search logikasini o\'rganish', type: 'F' },
     { id: 'YRK3XeZVulE', title: 'Bottom Navigation Bar: Flutterda pastgi tugmachalar turlari va body ga ulash', type: 'F' },
