@@ -9,6 +9,7 @@ import { title } from 'node:process';
 })
 export class VideosComponent implements OnInit {
   videos = [ 
+    { id: '0kx8ziLF7FA', title: 'Nike Sneakers - 2-qism: **************************************************', type: 'F' },
     { id: 'p-XNRYewZeA', title: 'Nike Sneakers - 1-qism: **************************************************', type: 'F' },
     { id: 'hOsmcksyMGA', title: 'Mini Dino Game: Flame kutubxonasidan foydalanib mini o\'yincha yaratdik. Tushunish kafolatlanaydi!', type: 'F' },
     { id: 'BkqSEQFiQTI', title: 'Dope Animation: Uzum marketni maqtab beruvchi animatsiyali Splash page', type: 'F' },
